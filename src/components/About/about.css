@@ -1,0 +1,32 @@
+
+
+.aboutImg{
+    width: 100%;
+    height: 70vh;
+}
+.aboutTitle{
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: orange;
+}
+.aboutInfo{
+    margin-top: 50px;
+    color:black;
+    font-size: 1rem;
+    font-weight: 600;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-align: justify;
+     margin-bottom: 50px;
+}
+
+@media(max-width:768px){
+   
+.aboutImg{
+   
+    height: 30vh;
+    margin-top: 20px;
+}
+.aboutRow{
+    padding: 20px;
+}
+}
